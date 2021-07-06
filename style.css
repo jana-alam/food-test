@@ -7,22 +7,21 @@ img {
   max-width: 100%;
 }
 p {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 25px;
 }
 h1 {
-  font-size: 56px;
+  font-size: 50px;
   color: #575757;
 }
 h2 {
-  font-size: 40px;
+  font-size: 36px;
 }
 h3 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
 }
 .flex-menu {
-  padding: 40px;
   display: flex;
   justify-content: flex-end;
 }
@@ -38,6 +37,9 @@ ul li {
 .flex-width {
   display: flex;
   justify-content: space-around;
+}
+#about-area-image {
+  max-width: 90%;
 }
 .orange-color {
   color: #fba24f;
@@ -85,15 +87,14 @@ ul li {
 #about-area {
   background: url(img/bg-about.png) no-repeat;
   background-size: cover;
-  padding: 90px;
+  padding-top: 40px;
   padding-bottom: 0;
 }
+
 #about-description {
   margin-right: 5%;
   margin-bottom: 40px;
-}
-#about-area-image {
-  max-width: 85%;
+  padding: 70px 50px 0;
 }
 
 #menu-area {
